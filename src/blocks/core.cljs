@@ -4,9 +4,7 @@
    [re-frame.core :as re-frame]
    [blocks.events :as events]
    [blocks.views :as views]
-   [blocks.config :as config]
-   ))
-
+   [blocks.config :as config]))
 
 (defn dev-setup []
   (when config/debug?

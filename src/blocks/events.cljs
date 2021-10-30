@@ -9,3 +9,8 @@
  ::initialize-db
  (fn-traced [_ _]
    db/default-db))
+
+(re-frame/reg-event-fx
+ ::hello-world
+ (fn []
+   (js/console.log "HELLO WORLD")))

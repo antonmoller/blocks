@@ -33,7 +33,7 @@
      {day8.re-frame.tracing day8.re-frame.tracing-stubs}}}}
   :bootstrap
   {:target :bootstrap
-   :output-dir "resources/public/js/bootstrap"
+   :output-dir "resources/public/bootstrap"
    :exclude #{cljs.js}
-   :entries [cljs.js]
+   :entries [cljs.js reagent.core reagent.dom re-frame.core]
    :macros []}}}
